@@ -55,6 +55,12 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	function resultsPercent() {
 		let total = migraine_count + cold_count;
+		if (total === 0) {
+			document.getElementById("results").innerHTML = "No answers recorded.";return;
+		}
+				 
+
+
 		
 
 	
